@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+div {
+  position: relative;
+  z-index: 2;
+}
+
+body {
+  background-color: #333;
+  color: #000;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #FFF;
+}
+.footer a {
+  margin: 10px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.quote-box {
+  border-radius: 15px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #FFF;
+}
+.quote-box .quote-text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  font-size: 40px;
+  clear: both;
+}
+.quote-box .quote-text i {
+  font-size: 40px;
+  margin-right: 10px;
+}
+.quote-box .quote-author {
+  font-size: 20px;
+  text-align: right;
+  width: 450px;
+  height: auto;
+  padding-top: 20px;
+  clear: both;
+}
+.quote-box .buttons {
+  width: 450px;
+  margin: auto;
+  display: block;
+}
+.quote-box .buttons .button:hover {
+  opacity: 0.5;
+}
+.quote-box .buttons .button {
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  background-color: silver;
+  cursor: pointer;
+  opacity: 1;
+  margin-top: 30px;
+  padding: 8px 18px 6px 18px;
+}
+.quote-box .buttons .button#tweet-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 5px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 20px;
+  height: 30px;
+  width: 40px;
+}
+.quote-box .buttons .button#new-quote {
+  float: right;
+  font-size: 16px;
+}
